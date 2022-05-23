@@ -1,0 +1,8 @@
+.footer {
+    padding-bottom: 6rem;
+
+    text-align: center;
+}
+.footer__direitos-autorais {
+    color: var(--cor-rodape);
+}

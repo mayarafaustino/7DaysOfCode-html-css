@@ -1,0 +1,23 @@
+.formulario {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+}
+.formulario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+.formulario__descricao {
+    padding: 1.5rem 0 2.5rem 0;
+
+    color: var(--cor-contraste-baixo);
+
+    font-size: 20px;
+    line-height: 30px;
+}
+.formulario__form {
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}

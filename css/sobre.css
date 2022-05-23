@@ -1,0 +1,32 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 6rem 11rem;
+    text-align: center;
+}
+.sobre__subtitulo {
+    color: var(--cor-destaque);
+
+    font-weight: 600;
+}
+.sobre__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.sobre__descricao {
+    color: var(--cor-contraste-baixo);
+    
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        padding: 6rem 0rem;
+    }
+}

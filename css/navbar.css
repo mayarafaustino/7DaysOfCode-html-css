@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 5rem; 
+    
+    font-weight: 500;
+}
+.navbar__container-logo {
+    display: flex;
+    gap: .5rem;
+}
+.navbar__container-paginas {
+    width: 50%;
+}
+.navbar__lista {
+    display: flex;
+    gap: 2rem;
+
+    color: var(--cor-contraste-baixo);
+}
+.navbar__container-botoes {
+    display: flex;
+    gap: .75rem;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar__container-paginas {
+        width: auto;
+        position: absolute;
+        padding-top: 6rem;
+        
+    }
+    .navbar__lista {
+        gap: 1rem;
+    }
+    .navbar__container-botoes {
+        gap: .25rem;
+    }
+}

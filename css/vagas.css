@@ -1,0 +1,76 @@
+.vagas {
+    padding: 4rem 0;
+}
+.vagas__talentos {
+    text-align: center;
+}
+.vagas__badge{
+    padding:  .25rem .75rem;
+
+    color: var(--cor-destaque);
+    background-color: #8E24240D;
+    border-radius: 18px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.vagas__titulo {
+    padding: 1rem 0;
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+.vagas__descricao {
+    padding-bottom: 4rem;
+
+    color: var(--cor-contraste-baixo);
+
+    font-size: 20px;
+    line-height: 30px;
+}
+.vagas__imagem {
+    background-image: url(../imagens/ImageTalentos.png);
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.vagas__abertas {
+    padding: 0 14rem 0 14rem;
+}
+.vagas__titulo-area {
+    padding: 4rem 0 2rem 0;  
+}
+.vagas__card {
+    padding: 1.5rem;
+}
+.vagas__titulo-card {
+    padding-bottom: 2rem;
+}
+.vagas__detalhes-card {
+    display: flex;
+    gap: 1.5rem;
+
+    color: var(--cor-contraste-baixo);
+   
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .vagas {
+        padding: 0;
+    }
+    .vagas__imagem {
+        height: 25vh;
+    }
+    .vagas__abertas {
+        padding: 0;
+    }
+}
